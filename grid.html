@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid</title>
     <style>
         body{
-             background: linear-gradient(to right, #0e7490, #3b82f6, #4f46e5);
+             background: linear-gradient(to bottom left, #1e3a8a, #0f172a, #cffafe);
              background-attachment: fixed
         }
         h1{
@@ -14,23 +14,59 @@
         }
         .main{
             display: grid; 
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
              grid-row: 10px;
+             grid-column: 10px;
              margin-top: 5px;
+              gap: 10px;
+        }
+        p{
+            color: azure; 
+            background: rgba(28, 27, 27, 0.1);
+            font-size: 20px;
+            text-align: justify; 
+            padding: 15px;
+               
+        }
+        #1{
+           display: grid; 
+             grid-row: 10px;
+             grid-column: 10px;
+             margin-top: 5px;
+              gap: 10px;
+        }
+        #2{
+            width: 494.93px;height: 220;
         }
     </style>
 </head>
 <body>
-    <h1>Hello guys ...</h1>
-    <div class=".main">
+    <h1>با سریال های محبوب من آشنا بشید!</h1>
+    <div class="main">
         <div>
-            <span>Lorem ipsum dolor sit amet.</span>
+            <a href="https://www.myfilm2m.ir/series/the-last-of-us/" target="_blank" >
+                <img src="../img/Last-of-us.jpg" alt="Last-of-us.">
+            </a>
         </div>
         <div>
-            <span>
-                Lorem ipsum dolor sit amet.
-            </span>
+            <a href="https://www.myfilm2m.ir/series/house-of-the-dragon/" target="_blank">
+                <img src="../img/House-of-the-dragon.jpg" alt="House-of-the-dragon">
+            </a>
         </div>
+        <div>
+            <a href="https://www.myfilm2m.ir/series/peaky-blinders/" target="_blank">
+                <img src="../img/Peaky Blinders.jpg" alt="Peaky Blinders">
+            </a>
+        </div>
+        <div><p>آخرین بازمانده از ما یا دِ لست آف آس؛ سریالی پسا-آخرالزمانی درام بر پایهٔ سری بازی‌های آخرین بازمانده از ما ساختهٔ ناتی داگ و نویسندگی نیل دراکمن است. داستان در زمانی جریان دارد که قارچی به نام کوردیسپس انسان‌ها را آلوده و آن‌ها را به زامبی‌های خشنی تبدیل کرده است. در این میان جوئل مردی است که موافقت می‌کند تا نوجوانی به نام اِلی را از شهر بوستون خارج کند و به سمت غرب ببرد و به گروهی به نام فایرفلایز تحویل بدهد…</p></div>
+        <div><p>خاندان اژدها؛ سریالی در سبک فانتزی درام که توسط جرج آر. آر. مارتین و رایان کندال خلق شده‌است. سریال اقتباسی از رمان آتش و خون نوشته مارتین است و پیش‌درآمد سریال بازی تاج‌وتخت محسوب می‌شود. داستان ۲۰۰ سال پیش از اتفاقات بازی تاج‌وتخت رخ می‌دهد و پیش‌زمینه خاندان تارگریِن را به تصویر می‌کشد… </p></div>
+        <div><p>پیکی بلایندرز سریالی در سبک درام و جنایی است و استیون نایت وظیفه ساختن آن را به عهده دارد. داستان حول محور کیلین مورفی در نقش تامی شلبی میباشد. در دهه 20 که گروه های گنگستری در شهر بیرمنگهام واقع در انگلستان بسیار زیاد شده است، یک گروه گنگستر سعی میکند خود را در این دهه به قدرت برساند.…</p></div>
     </div>
+    <div id="1"><a href="https://www.myfilm2m.ir/series/peaky-blinders/" target="_blank">
+                <img src="../img/Money-Heist.jpg" alt="Money-Heist.">
+            </a>
+        </div>
+        <div id="2"><p>سرقت پول یا خانه کاغذی یا خانه اسکناس، مجموعه تلویزیونی اسپانیایی در ژانر سرقت است که در سال ۲۰۱۷ ابتدا از شبکهٔ آنتنا ۳ اسپانیا پخش شد و سپس نت‌فلیکس آن را در سطح جهان منتشر کرد. هشت نفر که چیزی برای از دست دادن ندارند و با ماسک‌هایی شبیه به سالوادور دالی، سعی دارند تا کنترل ضراب خانه (محل چاپ پول) را بدست بگیرند اما….</p></div>
+    
 </body>
 </html>
