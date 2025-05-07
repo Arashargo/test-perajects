@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        body{
+             background: linear-gradient(to bottom left, #fbbf24, #6366f1, #94a3b8);
+             background-attachment: fixed;
+              text-align: center; 
+            
+        }
+        .main{
+            display: grid; 
+             grid-row: 10px;
+             grid-column: 10px;
+             margin-top: 5px;
+              gap: 10px;
+              align-items: center;
+             
+        }
+        .a{
+            display: grid;
+            grid-template-columns: 30% 1fr;
+             grid-row: 10px;
+             grid-column: 10px;
+             margin-top: 5px;
+              gap: 10px;
+
+        }
+        .b{
+            display: grid;
+            grid-template-columns:10% 50% 5% 1fr ;
+             grid-row: 10px;
+             grid-column: 10px;
+             margin-top: 5px;
+              gap: 10px; 
+        }
+        .c{
+             display: grid;
+            grid-template-columns:10% 50% 5% 1fr ;
+             grid-row: 10px;
+             grid-column: 10px;
+             margin-top: 5px;
+              gap: 10px; 
+        }
+        .i1{ height: 100px;  background-color: lightblue;}
+        .i2{ background-color: darkblue; }
+        .i3{height: 130px; background-color: purple;}
+        .i4{background-color: red;}
+        .i5{ background-color: cyan;}
+        .i6{background-color: green;}
+        .i7{height: 60px; background-color: pink;}
+        .i8{background-color: rgb(232, 167, 27);}
+        .i9{background-color: limegreen;}
+    </style>
+</head>
+<body>
+    <h1><bdo dir="ltr">This is my grid project.</bdo></h1>
+    <div class="main">
+        <div class="a">
+            <div class="i1">بهترین محصولات...</div>
+            <div class="i2">بررسی میزان رشد سهام</div>
+        </div>
+        <div class="b">
+            <div class="i3">3</div>
+            <div class="i4">4</div>
+            <div class="i5">5</div> 
+            <div class="i6">6</div>
+        </div>
+        <div class="c">
+            <div class="i7">7</div>
+            <div class="i8">8</div>
+            <div class="i9">9</div>
+        </div>
+    </div>
+</body>
+</html>
